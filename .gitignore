@@ -1,7 +1,23 @@
-data/
+# Data
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
 *.csv
 *.xlsx
-.env
-.DS_Store
+*.parquet
+
+# Python/Jupyter
 __pycache__/
+*.pyc
 .ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# System files
+.DS_Store
